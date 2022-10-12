@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2dcc9266-4d97-464b-a49a-f487b2426ec1" name="Changes" comment="InitialComit">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="2dcc9266-4d97-464b-a49a-f487b2426ec1" name="Changes" comment="Adoua">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -60,7 +59,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665081135312</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adoua">
+      <created>1665426242639</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665426242639</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -76,6 +82,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="InitialComit" />
-    <option name="LAST_COMMIT_MESSAGE" value="InitialComit" />
+    <MESSAGE value="Adoua" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adoua" />
   </component>
 </project>

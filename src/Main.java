@@ -1,36 +1,37 @@
 public class Main {
+
     public static void main(String[] args) {
-        int x = 2;
-        int y = 5;
+        int a = 2;
+        int b = (a+3);
 
-        int z = sum(x, y);
-        System.out.println(z);
+        //int unu = adunare(a, b);
+        System.out.println("Rezultatul adunarii este:" + adunare(a,b));
 
-        float a = substract(x, y);
-        System.out.println(a);
+        int doi = scadere(a, b);
+        System.out.println("Rezultatul scaderii este:" +(doi));
 
-        float unu = multiply(x, y);
-        System.out.println(unu);
+        int trei = inmultire(a, b);
+        System.out.println("Rezultatul inmultirii este:" +(trei));
 
-        float doi = divide(y, x);
-        System.out.println(doi);
+        float rezultatulImpartirii = impartire(a, b);
+        System.out.println("Rezultatul impartirii este:" +(rezultatulImpartirii));
     }
 
-    public static int sum(int first, int second) {
-        int result = first + second;
-        return result;
-    }
-
-    public static float substract(float first, float second){
-        float result = first - second;
-        return result;
-    }
-    public static float multiply(float first, float second ){
-        float unu = first * second ;
+    public static int adunare(int primul, int aldoilea) {
+        int unu = primul + aldoilea;
         return unu;
     }
-    public static float divide(float first, float second){
-        float doi = first / second ;
+
+    public static int scadere(int primul, int aldoilea){
+        int doi = primul - aldoilea;
         return doi;
+    }
+    public static int inmultire(int primul, int aldoilea){
+        int trei = primul * aldoilea ;
+        return trei;
+    }
+    public static float impartire(float primul, float aldoilea){
+        float rezultatulImpartirii = primul / aldoilea ;
+        return rezultatulImpartirii;
     }
 }
