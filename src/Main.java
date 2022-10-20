@@ -18,9 +18,18 @@ public class Main {
 
 
         String textImput = "FastTrack";
-        String textImput2 = "FastTrackIt";
-        int numberImput = 5;
-        System.out.println(op.textComp(textImput, textImput2));
+        String textImput2 = "FastTrackIT";
+        System.out.println(op.textComp(textImput));
+
+        System.out.println(op.textAndNumberComp(textImput2, b));
+
+        System.out.println(op.theSnow(a));
+
+        System.out.println(op.theNumber(a));
+
+        int x = 4;
+        System.out.println(op.switchCase(x));
+
 
 
 
