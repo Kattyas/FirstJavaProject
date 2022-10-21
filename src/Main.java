@@ -4,18 +4,21 @@ public class Main {
 
         int a = 20;
         int b = 15;
-
+        int x = 4;
         Calculator Calc = new Calculator();
 
-        System.out.println(Calc.operAdunare(a,b));
-        System.out.println(Calc.operScadere(a,b));
-        System.out.println(Calc.operInmultire(a,b));
-        System.out.println(Calc.operImpartire(a,b));
+        int adunare = Calc.operAdunare(a,b);
+        System.out.println(adunare);
+        int scadere = Calc.operScadere(a,b);
+        System.out.println(scadere);
+        int inmultire = Calc.operInmultire(a,b);
+        System.out.println(inmultire);
+        float impartire = Calc.operImpartire(a,b);
+        System.out.println(impartire);
 
         LogicalOp op = new LogicalOp();
         int biggest = op.checkBiggerNumber(a,b);
         System.out.println("The bigger number is: " + biggest);
-
 
         String textImput = "FastTrack";
         String textImput2 = "FastTrackIT";
@@ -27,8 +30,13 @@ public class Main {
 
         System.out.println(op.theNumber(a));
 
-        int x = 4;
         System.out.println(op.switchCase(x));
+
+        System.out.println(op.isNumberEven(a));
+
+        System.out.println(op.isEligibleToVote(a));
+
+        System.out.println(op.checkBiggestNumber(a,b,x));
 
 
 
