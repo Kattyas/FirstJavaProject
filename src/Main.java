@@ -5,7 +5,10 @@ public class Main {
         int a = 20;
         int b = 15;
         int x = 4;
+        String textImput = "FastTrack";
+        String textImput2 = "FastTrackIT";
         Calculator Calc = new Calculator();
+        LogicalOp op = new LogicalOp();
 
         int adunare = Calc.operAdunare(a,b);
         System.out.println(adunare);
@@ -16,35 +19,32 @@ public class Main {
         float impartire = Calc.operImpartire(a,b);
         System.out.println(impartire);
 
-        LogicalOp op = new LogicalOp();
         int biggest = op.checkBiggerNumber(a,b);
         System.out.println("The bigger number is: " + biggest);
 
-        String textImput = "FastTrack";
-        String textImput2 = "FastTrackIT";
-        System.out.println(op.textComp(textImput));
+        String tComp = op.textComp(textImput);
+        System.out.println(tComp);
 
-        System.out.println(op.textAndNumberComp(textImput2, b));
+        String TandNComp = op.textAndNumberComp(textImput2,b);
+        System.out.println(TandNComp);
 
-        System.out.println(op.theSnow(a));
+        String snow = op.theSnow(a);
+        System.out.println(snow);
 
-        System.out.println(op.theNumber(a));
+        String number = op.theNumber(a);
+        System.out.println(number);
 
-        System.out.println(op.switchCase(x));
+        String Case = op.switchCase(x);
+        System.out.println(Case);
 
-        System.out.println(op.isNumberEven(a));
+        String even = op.isNumberEven(a);
+        System.out.println(even);
 
-        System.out.println(op.isEligibleToVote(a));
+        String vote = op.isEligibleToVote(a);
+        System.out.println(vote);
 
-        System.out.println(op.checkBiggestNumber(a,b,x));
-
-
-
-
-
-
-
-
+        int BiggestNumber = op.checkBiggestNumber(a,b,x);
+        System.out.println(BiggestNumber);
 
     }
 
