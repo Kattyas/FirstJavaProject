@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dcc9266-4d97-464b-a49a-f487b2426ec1" name="Changes" comment="TemaLab11">
-      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/AnimalFood.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/Owner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/RecAct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/Veterinary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AnimalRescue/AppMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/AppMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/RecAct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/RecAct.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666346115765</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="TemaLab11">
+      <created>1666449728628</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1666449728628</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
