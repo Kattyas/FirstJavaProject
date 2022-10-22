@@ -21,6 +21,8 @@ public class AppMain {
         rudolph.speak();
         rudolph.run();
         angelica.adopt();
+        yamYamFood.spicy();
+        jumping.high();
         mrWilly.consult();
 
 
