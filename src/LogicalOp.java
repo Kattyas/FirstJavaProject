@@ -137,6 +137,77 @@ public class LogicalOp {
 
 
 
+    //--------------------------------------------------------------------------------------------------------------//
+    //  Tema - Java For Loops
+
+
+    // 1. Creati o metoda in clasa LogicalOp, care sa primeasca un numar ca si parametru.
+    // Metoda sa verifice numarul primit, si sa afiseze in consola o numaratoare pana la 100,
+    // pornind de la numarul primit ca si parametru. Atentie la crearea tipului metodei,
+    // deoarece metoda afiseaza, nu returneaza.
+
+    public void printFromNrTo100(int nr){
+        for(int x = nr;x<=100;x++){
+            System.out.println(x);
+        }
+    }
+    // 2. Creati o metoda in clasa LogicalOp, care sa primeasca un numar ca si parametru.
+    // Metoda sa verifice numrul primit, si sa afiseze in consola o numaratoare pana la -100,
+    // pornind de la numarul primit ca si parametru. Atentie la crearea tipului metodei,
+    // deoarece metoda afiseaza, nu returneaza.
+
+    public void printFromNrToMinus100(int nrTwo){
+        for(int x = nrTwo; x >= -100; x--){
+            System.out.println(x);
+        }
+    }
+    // 3. Creati o metoda in clasa LogicalOp, care sa primeasca doi parametrii de tip numar.
+    // Metoda sa afiseze o numaratoare intre cele doua numere primite, pornind de la primul parametru primit,
+    // pana la cel de-al doilea(ex: daca int x e primul parametru iar int y  este cel de-al doilea,
+    // numaratoarea sa se faca de la x, la y. Atentie la crearea tipului metodei, deoarece metoda afiseaza, nu returneaza.
+
+    public void printFromAtoX(int x, int a){
+        for(int i = x; i <= a; i++){
+              System.out.println(i);
+        }
+    }
+    // 4. Creati o metoda in clasa LogicalOp, care sa primeasca doi parametrii de tip numar.
+    // Metoda trebuie sa verifice care dintre cele doua numere este mai mare, si sa execute
+    // o numaratoare crescatoare de la cel mai mic la cel mai mare.(ex: daca int x e primul parametru
+    // iar int y  este cel de-al doilea, daca x  este mai mare decat y,  atunci numaratoarea sa fie de la y la x).
+    //Atentie la crearea tipului metodei, deoarece metoda afiseaza, nu returneaza.
+
+    public void theBgstNumber(int x, int a){
+        for(int i = x; i <= a; i++){
+            System.out.println(i);
+        }
+        for(int i = a; i <= x; i++){
+            System.out.println(i);
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -46,6 +46,27 @@ public class Main {
         int BiggestNumber = op.checkBiggestNumber(a,b,x);
         System.out.println(BiggestNumber);
 
+        //--------------------------------------------------------------------------------------------
+        // Tema 11
+
+        LogicalOp nr = new LogicalOp();
+        nr.printFromNrTo100(x);
+
+        LogicalOp nrTwo = new LogicalOp();
+        nrTwo.printFromNrToMinus100(x);
+
+        LogicalOp numaratoare = new LogicalOp();
+        numaratoare.printFromAtoX(x,a);
+
+        LogicalOp crescator = new LogicalOp();
+        crescator.theBgstNumber(a,x);
+
+
+
+
+
+
+
     }
 
 
