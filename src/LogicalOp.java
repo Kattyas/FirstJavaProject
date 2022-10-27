@@ -147,7 +147,7 @@ public class LogicalOp {
     // deoarece metoda afiseaza, nu returneaza.
 
     public void printFromNrTo100(int nr){
-        for(int x = nr;x<=100;x++){
+        for(int x = nr; x <= 100; x++){
             System.out.println(x);
         }
     }
@@ -178,26 +178,67 @@ public class LogicalOp {
     //Atentie la crearea tipului metodei, deoarece metoda afiseaza, nu returneaza.
 
     public void theBgstNumber(int x, int a){
-        for(int i = x; i <= a; i++){
-            System.out.println(i);
+
+        for(int i = a; i >= x; x++){
+            System.out.println(x);
         }
-        for(int i = a; i <= x; i++){
-            System.out.println(i);
+        for(int i = x; i >= a; a++){
+            System.out.println(a);
         }
     }
 
+    // 5. Creati o metoda in clasa LogicalOp care sa afiseze toate numerele pare de la 1 la 100.
+
+    public void nrPare(int nrDoi){
+        for(int i = nrDoi; i <= 100; i= i+2 ){
+            System.out.println(i);
+        }
+    }
+    // 6. Creati o metoda in clasa LogicalOp care sa afiseze toate numerele impare de la 1 la 100.
+
+    public void nrImpare(int nrUnu){
+        for(int i = nrUnu; (i % 2!= 0) && (i<=100) ; i++ ){
+            System.out.println(i++);
+        }
+    }
+    // 7. Creati o metoda in clasa LogicalOp care sa primeasca un parametru de tip numar.
+    // Metoda sa adune toate numerele pana la 100, pornind de la numarul primit ca si parametru,
+    // iar la final sa returneze rezultatul. Apelati metoda in clasa Main, metoda main() pentru a verifica daca functioneaza.
+
+    public int addunare(int nrUnu) {
+        int sum = 0;
+        for (int i = nrUnu; i <= 100; i++) {
+            sum = sum + i;
+        }
+        return sum;
+
+    }
+    // 8. Creati o metoda in clasa LogicalOp care sa primeasca un parametru de tip numar.
+    // Metoda sa adune toate numerele pana la 100, pornind de la numarul primit ca si parametru,
+    // si sa calculeze media numerelor. La final, metoda sa returneze media. Apelati metoda in clasa Main,
+    // metoda main() pentru a verifica daca functioneaza.
+
+    public float addSiMedia(float nrUnu) {
+        float sum = 0;
+        for (float i = nrUnu; i <= 100; i++) {
+            sum = sum + i;
+        }
+        return sum/100;
+    }
+    // 9. Creati o metoda in clasa LogicalOp care sa afiseze urmatorul tipar:
+
+    public void pattern(){
+        for(int i = 7; i > 0 ; i--){
+            for(int j = 0; j < i ; j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
 
 
 
 
-
-
-
-
-
-
-
-
+    }
 
 
 

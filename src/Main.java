@@ -2,9 +2,14 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int a = 20;
-        int b = 15;
-        int x = 4;
+        int nrZero = 0;
+        int nrUnu  = 1;
+        int nrDoi  = 2;
+        int a      = 20;
+        int b      = 15;
+        int x      = 4;
+
+
         String textImput = "FastTrack";
         String textImput2 = "FastTrackIT";
         Calculator Calc = new Calculator();
@@ -60,6 +65,27 @@ public class Main {
 
         LogicalOp crescator = new LogicalOp();
         crescator.theBgstNumber(a,x);
+
+        LogicalOp nrP = new LogicalOp();
+        nrP.nrPare(nrDoi);
+
+        LogicalOp nrImp = new LogicalOp();
+        nrImp.nrImpare(nrUnu);
+
+        int aDunare = op.addunare(nrUnu);
+        System.out.println(aDunare);
+
+        float sumAndAv = op.addSiMedia(nrUnu);
+        System.out.println(sumAndAv);
+
+        LogicalOp tipar = new LogicalOp();
+        tipar.pattern();
+
+
+
+
+
+
 
 
 
