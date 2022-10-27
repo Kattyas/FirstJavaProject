@@ -51,7 +51,7 @@ public class Main {
         System.out.println(BiggestNumber);
 
         //--------------------------------------------------------------------------------------------
-        // Tema 11
+        // Tema 12
 
         LogicalOp nr = new LogicalOp();
         nr.printFromNrTo100(x);
