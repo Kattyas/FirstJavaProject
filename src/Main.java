@@ -2,7 +2,6 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int nrZero = 0;
         int nrUnu  = 1;
         int nrDoi  = 2;
         int a      = 20;
