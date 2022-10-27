@@ -2,11 +2,12 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int nrUnu  = 1;
-        int nrDoi  = 2;
-        int a      = 20;
-        int b      = 15;
-        int x      = 4;
+        int nrUnu   = 1;
+        int nrDoi   = 2;
+        int a       = 20;
+        int b       = 15;
+        int x       = 4;
+        int nrOsuta = 100;
 
 
         String textImput = "FastTrack";
@@ -79,6 +80,35 @@ public class Main {
 
         LogicalOp tipar = new LogicalOp();
         tipar.pattern();
+
+        //-----------------------------------------------------------------------------------------------------------
+
+        LogicalOp prnt = new LogicalOp();
+        prnt.printFromFirstToLast(nrUnu);
+
+        LogicalOp prnt2 = new LogicalOp();
+        prnt2.printFromNrToMinuss100(nrUnu);
+
+        LogicalOp prnt3 = new LogicalOp();
+        prnt3.prntFromFirstToLast(nrUnu, nrOsuta);
+
+        LogicalOp prnt4 = new LogicalOp();
+        prnt4.prntTheBgstNumber(nrUnu, b);
+
+        LogicalOp prnt5 = new LogicalOp();
+        prnt5.nrParE(nrUnu );
+
+        LogicalOp prnt6 = new LogicalOp();
+        prnt6.nrImparE(nrUnu);
+
+        LogicalOp prnt7 = new LogicalOp();
+        System.out.println(prnt7.mediaNumerelor(111, 8899));
+
+
+
+
+
+
 
 
 

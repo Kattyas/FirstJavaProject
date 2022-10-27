@@ -189,8 +189,8 @@ public class LogicalOp {
 
     // 5. Creati o metoda in clasa LogicalOp care sa afiseze toate numerele pare de la 1 la 100.
 
-    public void nrPare(int nrDoi){
-        for(int i = nrDoi; i <= 100; i= i+2 ){
+    public void nrPare(int nrUnu){
+        for(int i = nrUnu; (i % 2 == 0) && (i <= 100); i= i+2 ){
             System.out.println(i);
         }
     }
@@ -234,11 +234,106 @@ public class LogicalOp {
             }
             System.out.println();
         }
-
-
-
-
     }
+
+    //------------------------------------------------------------------------------------------------------------
+    //  Tema - Java While Loop
+
+    // 1. Creati o metoda in clasa LogicalOp, care sa primeste un numar ca si parametru.
+    // Metoda sa verifice numrul primit, si sa afiseze in consola o numaratoare pana la 100,
+    // pornind de la numarul primit ca si parametru. Atentie la crearea tipului metodei,
+    // deoarece metoda afiseaza, nu returneaza.
+
+    public void printFromFirstToLast(int nrUnu){
+        while(nrUnu <= 100){
+            System.out.println(nrUnu);
+            nrUnu++;
+        }
+    }
+    // 2. Creati o metoda in clasa LogicalOp, care sa primeste un numar ca si parametru.
+    // Metoda sa verifice numrul primit, si sa afiseze in consola o numaratoare pana la -100,
+    // pornind de la numarul primit ca si parametru. Atentie la crearea tipului metodei,
+    // deoarece metoda afiseaza, nu returneaza.
+
+    public void printFromNrToMinuss100(int nrUnu){
+        while(nrUnu >= -100){
+            System.out.println(nrUnu);
+            nrUnu--;
+        }
+    }
+    // 3.  Creati o metoda in clasa LogicalOp, care sa primeasca doi parametrii de tip numar.
+    // Metoda sa afiseze o numaratoare intre cele doua numere primite, pornind de la primul parametru primit,
+    // pana la cel de-al doilea(ex: daca int x e primul parametru iar int y  este cel de-al doilea, numaratoarea sa se faca de la x, la y.
+
+    public void prntFromFirstToLast(int nrUnu, int nrOsuta){
+        while(nrUnu <= nrOsuta){
+            System.out.println(nrUnu);
+            nrUnu++;
+        }
+    }
+    // 4. Creati o metoda in clasa LogicalOp, care sa primeasca doi parametrii de tip numar.
+    // Metoda trebuie sa verifice care dintre cele doua numere este mai mare,
+    // si sa execute o numaratoare crescatoare de la cel mai mic la cel mai mare.
+    // (ex: daca int x e primul parametru iar int y  este cel de-al doilea,
+    // daca x  este mai mare decat y,  atunci numaratoarea sa fie de la y la x).
+
+    public void prntTheBgstNumber(int nrUnu, int b){
+        while(nrUnu >= b) {
+            System.out.println(b);
+            b++;
+        }
+        while (b >= nrUnu){
+            System.out.println(nrUnu);
+            nrUnu++;
+        }
+    }
+    // 5. Creati o metoda in clasa LogicalOp care sa afiseze toate numerele pare de la 1 la 100.
+
+    public void nrParE(int nrUnu ) {
+        while (nrUnu <= 100) {
+            if(nrUnu % 2 == 0 ) {
+                System.out.println(nrUnu);
+            }
+            nrUnu++;
+        }
+    }
+
+    // 6. Creati o metoda in clasa LogicalOp care sa afiseze toate numerele impare de la 1 la 100.
+
+    public void nrImparE(int nrUnu){
+        while(nrUnu <= 100){
+            if(nrUnu % 2 == 1) {
+                System.out.println(nrUnu);
+            }
+            nrUnu = nrUnu + 2;
+        }
+    }
+
+    // 7. Creati o metoda care sa adune toate numerele din intervalul 111 si 8899. Sa se afiseze suma totala,
+    // iar dupa aceea sa se calculeze si afiseze media numerelor din acel interval. Introduceti o variabila int count in metoda,
+    // pentru a numara toate numerele din interval. Apelati metoda in clasa Main, metoda main() pentru a verifica daca functioneaza.
+
+    public float mediaNumerelor(int first, int last){
+        float sum = 0;
+        int count = 0;
+        while(first <=  last){
+            sum = sum + first;
+            count++;
+            first++;
+        }
+        return sum/count;
+    }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
