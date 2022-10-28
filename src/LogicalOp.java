@@ -4,8 +4,8 @@ public class LogicalOp {
     // si sa primeasca doua int-uri ca si parametrii. Folosind if - else, verificati in interiorul metode care numar este mai mare,
     // dintre cele doua valori care va vin ca si parametrii, si returnati numarul mai mare.
 
-    public int checkBiggerNumber(int a, int b ){
-        if( a > b ){
+    public int checkBiggerNumber(int a, int b) {
+        if (a > b) {
             return a;
         } else {
             return b;
@@ -17,8 +17,8 @@ public class LogicalOp {
     // Daca da, atunci metoda sa returneze “Learning text comparison”.
     // Daca nu, atunci metoda sa returneze “Got to try some more”
 
-    public String textComp(String textImput){
-        if (textImput.equals ("FastTrackIT")){
+    public String textComp(String textImput) {
+        if (textImput.equals("FastTrackIT")) {
             return "Learning text comparison";
         } else {
             return "Got to try some more";
@@ -45,11 +45,11 @@ public class LogicalOp {
     // “The amount of snow this winter was(cm): “ si numarul. Daca nu, sa printeze “The forecast snow is(cm):” si numarul.
     // Apelati metoda in main() pentru a verifica daca functioneaza.
 
-    public String theSnow(int a){
-        if( a > 8 ||a==6){
-            return "The amount of snow this winter was " + a +" cm ";
-        }else {
-            return "The forecast snow is" + a +" cm ";
+    public String theSnow(int a) {
+        if (a > 8 || a == 6) {
+            return "The amount of snow this winter was " + a + " cm ";
+        } else {
+            return "The forecast snow is" + a + " cm ";
         }
     }
 
@@ -76,18 +76,28 @@ public class LogicalOp {
     // "The number is:" cu numarul de la parametru, ci sa se scrie intreg textul cu tot cu numar pentru fiecare caz din Switch-Case.
     // Apelati metoda in main() pentru a verifica daca functioneaza.
 
-    public String switchCase(int x){
-        switch(x){
-            case 1: return "The number is: 1 !";
-            case 2: return "The number is: 2 !";
-            case 3: return "The number is: 3 !";
-            case 4: return "The number is: 4 !";
-            case 5: return "The number is: 5 !";
-            case 6: return "The number is: 6 !";
-            case 7: return "The number is: 7 !";
-            case 8: return "The number is: 8 !";
-            case 9: return "The number is: 9 !";
-            default: return "The number is not here";
+    public String switchCase(int x) {
+        switch (x) {
+            case 1:
+                return "The number is: 1 !";
+            case 2:
+                return "The number is: 2 !";
+            case 3:
+                return "The number is: 3 !";
+            case 4:
+                return "The number is: 4 !";
+            case 5:
+                return "The number is: 5 !";
+            case 6:
+                return "The number is: 6 !";
+            case 7:
+                return "The number is: 7 !";
+            case 8:
+                return "The number is: 8 !";
+            case 9:
+                return "The number is: 9 !";
+            default:
+                return "The number is not here";
         }
     }
 
@@ -97,10 +107,10 @@ public class LogicalOp {
     // Daca numarul e par sa returneze true iar daca e impar sa returnese false.
     // Apelati metoda in main() pentru a verifica daca functioneaza.
 
-    public String isNumberEven(int a){
-        if (a % 2 ==0) {
+    public String isNumberEven(int a) {
+        if (a % 2 == 0) {
             return "True";
-        }else{
+        } else {
             return "False";
         }
     }
@@ -111,10 +121,10 @@ public class LogicalOp {
     // Daca varsta e peste 18, sa se returneze true iar daca nu, sa returneze false.
     // Apelati metoda in main() pentru a verifica daca functioneaza.
 
-    public String isEligibleToVote(int a){
-        if (a >= 18 ) {
+    public String isEligibleToVote(int a) {
+        if (a >= 18) {
             return "True";
-        }else{
+        } else {
             return "False";
         }
     }
@@ -122,19 +132,16 @@ public class LogicalOp {
     //Creati o metoda care sa primeasca 3 numere ca si parametrii si sa returneze cel mai mare numar.
     // Apelati metoda in main() pentru a verifica daca functioneaza.
 
-    public int checkBiggestNumber(int a, int b, int x ){
-        if( a > b || a > x){
+    public int checkBiggestNumber(int a, int b, int x) {
+        if (a > b || a > x) {
             return a;
-        }else if(b > a || b > x){
+        } else if (b > a || b > x) {
             return b;
-        }else{
+        } else {
             return x;
         }
 
     }
-
-
-
 
 
     //--------------------------------------------------------------------------------------------------------------//
@@ -146,8 +153,8 @@ public class LogicalOp {
     // pornind de la numarul primit ca si parametru. Atentie la crearea tipului metodei,
     // deoarece metoda afiseaza, nu returneaza.
 
-    public void printFromNrTo100(int nr){
-        for(int x = nr; x <= 100; x++){
+    public void printFromNrTo100(int nr) {
+        for (int x = nr; x <= 100; x++) {
             System.out.println(x);
         }
     }
@@ -156,8 +163,8 @@ public class LogicalOp {
     // pornind de la numarul primit ca si parametru. Atentie la crearea tipului metodei,
     // deoarece metoda afiseaza, nu returneaza.
 
-    public void printFromNrToMinus100(int nrTwo){
-        for(int x = nrTwo; x >= -100; x--){
+    public void printFromNrToMinus100(int nrTwo) {
+        for (int x = nrTwo; x >= -100; x--) {
             System.out.println(x);
         }
     }
@@ -166,9 +173,9 @@ public class LogicalOp {
     // pana la cel de-al doilea(ex: daca int x e primul parametru iar int y  este cel de-al doilea,
     // numaratoarea sa se faca de la x, la y. Atentie la crearea tipului metodei, deoarece metoda afiseaza, nu returneaza.
 
-    public void printFromAtoX(int x, int a){
-        for(int i = x; i <= a; i++){
-              System.out.println(i);
+    public void printFromAtoX(int x, int a) {
+        for (int i = x; i <= a; i++) {
+            System.out.println(i);
         }
     }
     // 4. Creati o metoda in clasa LogicalOp, care sa primeasca doi parametrii de tip numar.
@@ -177,27 +184,27 @@ public class LogicalOp {
     // iar int y  este cel de-al doilea, daca x  este mai mare decat y,  atunci numaratoarea sa fie de la y la x).
     //Atentie la crearea tipului metodei, deoarece metoda afiseaza, nu returneaza.
 
-    public void theBgstNumber(int x, int a){
+    public void theBgstNumber(int x, int a) {
 
-        for(int i = a; i >= x; x++){
+        for (int i = a; i >= x; x++) {
             System.out.println(x);
         }
-        for(int i = x; i >= a; a++){
+        for (int i = x; i >= a; a++) {
             System.out.println(a);
         }
     }
 
     // 5. Creati o metoda in clasa LogicalOp care sa afiseze toate numerele pare de la 1 la 100.
 
-    public void nrPare(int nrUnu){
-        for(int i = nrUnu; (i % 2 == 0) && (i <= 100); i= i+2 ){
+    public void nrPare(int nrUnu) {
+        for (int i = nrUnu; (i % 2 == 0) && (i <= 100); i = i + 2) {
             System.out.println(i);
         }
     }
     // 6. Creati o metoda in clasa LogicalOp care sa afiseze toate numerele impare de la 1 la 100.
 
-    public void nrImpare(int nrUnu){
-        for(int i = nrUnu; (i % 2!= 0) && (i<=100) ; i++ ){
+    public void nrImpare(int nrUnu) {
+        for (int i = nrUnu; (i % 2 != 0) && (i <= 100); i++) {
             System.out.println(i++);
         }
     }
@@ -223,13 +230,13 @@ public class LogicalOp {
         for (float i = nrUnu; i <= 100; i++) {
             sum = sum + i;
         }
-        return sum/100;
+        return sum / 100;
     }
     // 9. Creati o metoda in clasa LogicalOp care sa afiseze urmatorul tipar:
 
-    public void pattern(){
-        for(int i = 7; i > 0 ; i--){
-            for(int j = 0; j < i ; j++){
+    public void pattern() {
+        for (int i = 7; i > 0; i--) {
+            for (int j = 0; j < i; j++) {
                 System.out.print("*");
             }
             System.out.println();
@@ -244,8 +251,8 @@ public class LogicalOp {
     // pornind de la numarul primit ca si parametru. Atentie la crearea tipului metodei,
     // deoarece metoda afiseaza, nu returneaza.
 
-    public void printFromFirstToLast(int nrUnu){
-        while(nrUnu <= 100){
+    public void printFromFirstToLast(int nrUnu) {
+        while (nrUnu <= 100) {
             System.out.println(nrUnu);
             nrUnu++;
         }
@@ -255,8 +262,8 @@ public class LogicalOp {
     // pornind de la numarul primit ca si parametru. Atentie la crearea tipului metodei,
     // deoarece metoda afiseaza, nu returneaza.
 
-    public void printFromNrToMinuss100(int nrUnu){
-        while(nrUnu >= -100){
+    public void printFromNrToMinuss100(int nrUnu) {
+        while (nrUnu >= -100) {
             System.out.println(nrUnu);
             nrUnu--;
         }
@@ -265,8 +272,8 @@ public class LogicalOp {
     // Metoda sa afiseze o numaratoare intre cele doua numere primite, pornind de la primul parametru primit,
     // pana la cel de-al doilea(ex: daca int x e primul parametru iar int y  este cel de-al doilea, numaratoarea sa se faca de la x, la y.
 
-    public void prntFromFirstToLast(int nrUnu, int nrOsuta){
-        while(nrUnu <= nrOsuta){
+    public void prntFromFirstToLast(int nrUnu, int nrOsuta) {
+        while (nrUnu <= nrOsuta) {
             System.out.println(nrUnu);
             nrUnu++;
         }
@@ -277,21 +284,21 @@ public class LogicalOp {
     // (ex: daca int x e primul parametru iar int y  este cel de-al doilea,
     // daca x  este mai mare decat y,  atunci numaratoarea sa fie de la y la x).
 
-    public void prntTheBgstNumber(int nrUnu, int b){
-        while(nrUnu >= b) {
+    public void prntTheBgstNumber(int nrUnu, int b) {
+        while (nrUnu >= b) {
             System.out.println(b);
             b++;
         }
-        while (b >= nrUnu){
+        while (b >= nrUnu) {
             System.out.println(nrUnu);
             nrUnu++;
         }
     }
     // 5. Creati o metoda in clasa LogicalOp care sa afiseze toate numerele pare de la 1 la 100.
 
-    public void nrParE(int nrUnu ) {
+    public void nrParE(int nrUnu) {
         while (nrUnu <= 100) {
-            if(nrUnu % 2 == 0 ) {
+            if (nrUnu % 2 == 0) {
                 System.out.println(nrUnu);
             }
             nrUnu++;
@@ -300,12 +307,12 @@ public class LogicalOp {
 
     // 6. Creati o metoda in clasa LogicalOp care sa afiseze toate numerele impare de la 1 la 100.
 
-    public void nrImparE(int nrUnu){
-        while(nrUnu <= 100){
-            if(nrUnu % 2 == 1) {
+    public void nrImparE(int nrUnu) {
+        while (nrUnu <= 100) {
+            if (nrUnu % 2 == 1) {
                 System.out.println(nrUnu);
             }
-            nrUnu = nrUnu + 2;
+            nrUnu++;
         }
     }
 
@@ -313,18 +320,30 @@ public class LogicalOp {
     // iar dupa aceea sa se calculeze si afiseze media numerelor din acel interval. Introduceti o variabila int count in metoda,
     // pentru a numara toate numerele din interval. Apelati metoda in clasa Main, metoda main() pentru a verifica daca functioneaza.
 
-    public float mediaNumerelor(int first, int last){
+    public float mediaNumerelor(int first, int last) {
         float sum = 0;
         int count = 0;
-        while(first <=  last){
+        while (first <= last) {
             sum = sum + first;
             count++;
             first++;
         }
-        return sum/count;
+        return sum / count;
     }
+    // 8. Creati o metoda care sa primeasca doi parametrii de tip numar, si sa returneze media numerelor divizibile cu 7, din acel interval.
+    // Apelati metoda in clasa Main, metoda main() pentru a verifica daca functioneaza.
 
+    public float medNrDiv(int nrUnu, int nrOsuta) {
+        float sum = 0;
+        int count = 0;
+        while (nrUnu <= nrOsuta) {
+            sum = sum + nrUnu;
+            count++;
+            nrUnu++;
 
+        }
+        return sum / count;
+    }
 
 
 

@@ -104,7 +104,8 @@ public class Main {
         LogicalOp prnt7 = new LogicalOp();
         System.out.println(prnt7.mediaNumerelor(111, 8899));
 
-
+        LogicalOp prnt8 = new LogicalOp();
+        System.out.println(prnt8.medNrDiv(1,100));
 
 
 
