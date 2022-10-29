@@ -2,12 +2,16 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int nrUnu   = 1;
-        int nrDoi   = 2;
-        int a       = 20;
-        int b       = 15;
-        int x       = 4;
-        int nrOsuta = 100;
+
+        int nrZero      = 0;
+        int nrUnu       = 1;
+        int nrDoi       = 2;
+        int nrUnspe     = 11;
+        int a           = 20;
+        int b           = 15;
+        int x           = 4;
+        int nrOsuta     = 100;
+        int nrOsutaZece = 110;
 
 
         String textImput = "FastTrack";
@@ -106,6 +110,16 @@ public class Main {
 
         LogicalOp prnt8 = new LogicalOp();
         System.out.println(prnt8.medNrDiv(1,100));
+
+        LogicalOp prnt9 = new LogicalOp();
+        prnt9.fibonaci20(nrZero,nrUnu);
+
+        LogicalOp prnt10 = new LogicalOp();
+        prnt10.cozaLozaWoza(nrOsutaZece);
+
+
+
+
 
 
 

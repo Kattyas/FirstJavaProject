@@ -337,13 +337,72 @@ public class LogicalOp {
         float sum = 0;
         int count = 0;
         while (nrUnu <= nrOsuta) {
+            if(nrUnu % 7 == 0);
+            System.out.println(nrUnu);
+
             sum = sum + nrUnu;
             count++;
             nrUnu++;
 
         }
-        return sum / count;
+        return sum/count;
     }
+    // 9.  Creati o metoda care sa afiseze primele 20 de numere din sirul lui Fibonacci.
+
+    public void fibonaci20(int nrZero, int nrUnu){
+        int i = 1;
+        int n = 20;
+        while (i <= n) {
+            System.out.println(nrZero);
+            int sum = nrZero + nrUnu;
+            nrZero = nrUnu;
+            nrUnu = sum;
+            i++;
+        }
+    }
+    // 10. Creati o metoda numita CozaLozaWoza.
+
+    public void cozaLozaWoza(int nrOsutaZece){
+        int i = 1;
+        while (i <= nrOsutaZece) {
+            boolean test = false;
+            if (i % 3 == 0) {
+                System.out.print("Coza");
+                test = true;
+            }
+            if (i % 5 == 0) {
+                System.out.print("Loza");
+                test = true;
+            }
+            if (i % 7 == 0) {
+                System.out.print("Woza");
+                test = true;
+            }
+            if (!test) {
+                System.out.print(i);
+            }
+            System.out.print(" ");
+            if (i % 11 == 0) {
+                System.out.println();
+            }
+            i++;
+
+        }
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
