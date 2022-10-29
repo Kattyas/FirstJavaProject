@@ -2,16 +2,49 @@ package AnimalRescue;
 
 public class Dog {
 
-    String name = "Rudolph";
-    int    age = 2;
-    String breed = "Husky";
+
+
+    private String name;
+    private int age;
+    private String breed;
     String color = "Blue";
-    double weight = 30.5;
+    private double weight;
     String gender = "Male";
     int healthLvl = 9;
     int hungerLvl = 3;
     int happiness = 7;
 
+
+
+    public void setName(String name){
+        this.name = name;
+    }
+    public String getName(){
+        return name;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+    public int getAge() {
+        return age;
+    }
+
+    public void setWeight(double weight) {
+        this.weight = weight;
+    }
+
+    public double getWeight() {
+        return weight;
+    }
+
+    public void setBreed(String breed){
+        this.breed = breed;
+    }
+
+    public String getBreed() {
+        return breed;
+    }
 
     public void eat(){
         System.out.println("Eating....");
