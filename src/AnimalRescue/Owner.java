@@ -2,8 +2,25 @@ package AnimalRescue;
 
 public class Owner {
 
-    String name   = "angelica";
-    int    money  = 200;
+    private String name;
+    private int money;
+
+
+    public void setName(String name) {
+        this.name = name;
+    }
+    public String getName() {
+        return name;
+    }
+    public void setMoney(int money) {
+        this.money = money;
+    }
+    public int getMoney() {
+        return money;
+    }
+
+
+
 
     public void adopt (){
         System.out.println("...goes to shelter");
