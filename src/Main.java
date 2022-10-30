@@ -109,7 +109,7 @@ public class Main {
         System.out.println(prnt7.mediaNumerelor(111, 8899));
 
         LogicalOp prnt8 = new LogicalOp();
-        System.out.println(prnt8.medNrDiv(1,100));
+        System.out.println(prnt8.medNrDiv(1, 100));
 
         LogicalOp prnt9 = new LogicalOp();
         prnt9.fibonaci20(nrZero,nrUnu);

@@ -333,20 +333,22 @@ public class LogicalOp {
     // 8. Creati o metoda care sa primeasca doi parametrii de tip numar, si sa returneze media numerelor divizibile cu 7, din acel interval.
     // Apelati metoda in clasa Main, metoda main() pentru a verifica daca functioneaza.
 
-    public float medNrDiv(int nrUnu, int nrOsuta) {
+    public float medNrDiv(int first, int last) {
         float sum = 0;
         int count = 0;
-        while (nrUnu <= nrOsuta) {
-            if(nrUnu % 7 == 0);
-            System.out.println(nrUnu);
 
-            sum = sum + nrUnu;
+        while ( first <= last ){
+            if (first%7==0);
+            sum = sum + first;
             count++;
-            nrUnu++;
+            first++;
 
         }
-        return sum/count;
+        return sum / count;
+
     }
+
+
     // 9.  Creati o metoda care sa afiseze primele 20 de numere din sirul lui Fibonacci.
 
     public void fibonaci20(int nrZero, int nrUnu){
