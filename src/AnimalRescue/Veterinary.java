@@ -1,8 +1,8 @@
 package AnimalRescue;
 
 public class Veterinary {
-    private String name = "mrWilly";
-    private String specialization = "cats&Dogs";
+    private String name;
+    private String specialization ;
 
     public void setName(String name) {
         this.name = name;

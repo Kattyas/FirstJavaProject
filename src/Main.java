@@ -117,9 +117,16 @@ public class Main {
         LogicalOp prnt10 = new LogicalOp();
         prnt10.cozaLozaWoza(nrOsutaZece);
 
+        //______________________________________________________________________________________________________________
 
 
+        int[] myArray = op.arrayOfValues(100);
+        op.prntArray(myArray);
 
+        int[] myArray2 = op.evenArray(nrOsuta);
+        op.prntArray2(myArray2);
+
+        System.out.println(op.getAverageFromArray(myArray));
 
 
 
@@ -138,10 +145,6 @@ public class Main {
 
 
     }
-
-
-
-
 }
 
 
