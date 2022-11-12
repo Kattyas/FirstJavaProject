@@ -452,13 +452,13 @@ public class LogicalOp {
 
 
 
-    public boolean srcStrg( ) {
+    public boolean srcStrg() {
         String[] stringArray = new String[]{"A", "BE", "CE", "DE", "EF"};
         String searchedValue = "GE";
 
         boolean found = false;
-        for(String x : stringArray){
-            if(x.equals(searchedValue)){
+        for(String i : stringArray){
+            if(i.equals(searchedValue)){
                 found = true;
                 break;
             }
@@ -471,7 +471,44 @@ public class LogicalOp {
     // Metoda sa verifice daca numarul primit se afla in array-ul primit, si daca da, atunci sa returneze pozitia pe care se afla numarul.
     // Apelati metoda in main() pentru a verifica daca functioneaza.
 
-    
+    public int getArrayIndex(int[] arr, int value) {
+
+        int k=0;
+        for(int i=0;i<arr.length;i++){
+
+            if(arr[i]==value){
+                k=i;
+                break;
+            }
+        }
+        return k;
+    }
+
+    // 7. Creati o metoda care sa afiseze urmatoarea grila, folosind un array:
+
+    public void grid() {
+
+        String[][] grid = new String[10][10];
+        for (int i = 0; i < grid.length; i++) {
+            for (int j = 1; j < grid[i].length; j++) {
+                System.out.print("-");
+            }
+            System.out.println("-");
+        }
+    }
+
+    // 8. Creati o metoda care sa primeasca un parametru de tip array de numere, populat cu valori, si un parametru de tip numar.
+    // Metoda sa verifice daca numarul exista in array, si daca da, sa returneze array-ul primit, fara acel numar.
+    // Apelati metoda in main() pentru a verifica daca functioneaza.
+
+
+
+
+
+
+
+
+
 
 
 

@@ -132,6 +132,20 @@ public class Main {
 
 
 
+        int[] arr = {1,2,3,4,5,6,7,8,9};
+        int value = 5;
+        System.out.println(op.getArrayIndex(arr,value));
+        if (value <= arr.length) {
+            System.out.println(" True ");
+        }else{
+            System.out.println(" False ");
+        }
+
+        LogicalOp patt = new LogicalOp();
+        patt.grid();
+
+
+
 
 
 
