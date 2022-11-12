@@ -128,6 +128,16 @@ public class Main {
 
         System.out.println(op.getAverageFromArray(myArray));
 
+        System.out.println(op.srcStrg());
+
+
+
+
+
+
+
+
+
 
 
 

@@ -451,15 +451,39 @@ public class LogicalOp {
     // Apelati metoda in main() pentru a verifica daca functioneaza.
 
 
-    public  String src4String(String[]strigArray) {
-        String[] stringArray = new String[]{"A", "BE", "CE", "DE", "EF"};
-        String searched = "GE";
 
-        for (int i = 0; i < stringArray.length; i++) {
-            if (stringArray[i].equals(searched)) ;
+    public boolean srcStrg( ) {
+        String[] stringArray = new String[]{"A", "BE", "CE", "DE", "EF"};
+        String searchedValue = "GE";
+
+        boolean found = false;
+        for(String x : stringArray){
+            if(x.equals(searchedValue)){
+                found = true;
+                break;
+            }
         }
+        return found ;
 
     }
+
+    // 6. Creati o metoda care sa primeasca un parametru de tip array de numere, populat cu valori, si un parametru de tip numar.
+    // Metoda sa verifice daca numarul primit se afla in array-ul primit, si daca da, atunci sa returneze pozitia pe care se afla numarul.
+    // Apelati metoda in main() pentru a verifica daca functioneaza.
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
