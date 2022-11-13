@@ -132,7 +132,7 @@ public class Main {
 
 
 
-        int[] arr = {1,2,3,4,5,6,7,8,9};
+        int[] arr = new int [] {1,2,3,4,5,6,7,8,9};
         int value = 5;
         System.out.println(op.getArrayIndex(arr,value));
         if (value <= arr.length) {
@@ -143,6 +143,16 @@ public class Main {
 
         LogicalOp patt = new LogicalOp();
         patt.grid();
+
+        LogicalOp dell = new LogicalOp();
+        dell.delAnItem();
+
+        int k[]={7,8,9,10,11,12,13};
+        System.out.println(op.getSecondSmallest(k,7));
+
+
+
+
 
 
 

@@ -424,7 +424,7 @@ public class LogicalOp {
         }
         return myArray2;
     }
-    public void prntArray2(int[] myArray2) {
+    public void prntArray2(int []myArray2) {
         for (int i = 0; i < myArray2.length; i++) {
             if (myArray2[i] % 2 == 0){
                 System.out.println(myArray2[i]);
@@ -500,6 +500,48 @@ public class LogicalOp {
     // 8. Creati o metoda care sa primeasca un parametru de tip array de numere, populat cu valori, si un parametru de tip numar.
     // Metoda sa verifice daca numarul exista in array, si daca da, sa returneze array-ul primit, fara acel numar.
     // Apelati metoda in main() pentru a verifica daca functioneaza.
+
+    public void delAnItem() {
+        int elem = 5;
+        int n = 0;
+        int arr[] = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9};
+
+        for (int i = 0; i < n; i++)
+            arr[i] = n;
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == elem) {
+                for (int j = i; j < arr.length - 1; j++) {
+                    arr[j] = arr[j + 1];
+                }
+                break;
+            }
+        }
+        for (int i = 0; i < arr.length - 1; i++) {
+            System.out.print(arr[i]+ " ");
+        }
+
+
+    }
+
+    // 9. Creati o metoda care sa primeasca un array, si sa returneze al doilea cel mai mic numar din array.
+    // Apelati metoda in main() pentru a verifica daca functioneaza.
+
+
+    public static int getSecondSmallest(int[] k, int total){
+
+        int temp;
+
+        for (int i = 0; i < total; i++) {
+            for (int j = i + 1; j < total; j++) {
+                if (k[i] > k[j]) {
+                    temp = k[i];
+                    k[i] = k[j];
+                    k[j] = temp;
+                }
+            }
+        }
+        return k[1];
+    }
 
 
 
