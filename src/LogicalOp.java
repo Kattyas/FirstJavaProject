@@ -502,12 +502,10 @@ public class LogicalOp {
     // Apelati metoda in main() pentru a verifica daca functioneaza.
 
     public void delAnItem() {
-        int elem = 5;
-        int n = 0;
-        int arr[] = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9};
 
-        for (int i = 0; i < n; i++)
-            arr[i] = n;
+        int arr[] = new int[]{1, 3, 3, 4, 5, 6, 7, 8, 9};
+        int elem = 8;
+
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == elem) {
                 for (int j = i; j < arr.length - 1; j++) {
@@ -517,7 +515,7 @@ public class LogicalOp {
             }
         }
         for (int i = 0; i < arr.length - 1; i++) {
-            System.out.print(arr[i]+ " ");
+            System.out.print(arr[i]+" ");
         }
 
 
@@ -527,22 +525,43 @@ public class LogicalOp {
     // Apelati metoda in main() pentru a verifica daca functioneaza.
 
 
-    public static int getSecondSmallest(int[] k, int total){
+    public int getSecondSmallest(){
 
-        int temp;
+        int arr[]={7,14,19,10,11,12,13};
 
-        for (int i = 0; i < total; i++) {
-            for (int j = i + 1; j < total; j++) {
-                if (k[i] > k[j]) {
-                    temp = k[i];
-                    k[i] = k[j];
-                    k[j] = temp;
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = i + 1; j < arr.length; j++) {
+                if (arr[i] > arr[j]) {
+                    arr[i] = arr[j];
+                    System.out.println();
                 }
             }
         }
-        return k[1];
+        return arr[1];
     }
 
+    //10. Creati o metoda care sa primeasca doi parametrii: un array populat cu valori, si un array gol.
+    // Metoda sa copieze toate valorile din primul array, parcurgandu-l, in cel de-al doilea.
+    // Apelati metoda in main() pentru a verifica daca functioneaza.
+
+    public void copyArr(){
+        int [] arr1 = new int [] {1, 2, 3, 4, 5};
+        int arr2[] = new int[arr1.length];
+
+        for (int i = 0; i < arr1.length; i++) {
+            arr2[i] = arr1[i];
+        }
+        System.out.println("Elements of first array: ");
+        for (int i = 0; i < arr1.length; i++) {
+            System.out.print(arr1[i] + " ");
+        }
+        System.out.println();
+
+        System.out.println("Elements of second array: ");
+        for (int i = 0; i < arr2.length; i++) {
+            System.out.print(arr2[i] + " ");
+        }
+    }
 
 
 

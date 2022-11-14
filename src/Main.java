@@ -147,8 +147,11 @@ public class Main {
         LogicalOp dell = new LogicalOp();
         dell.delAnItem();
 
-        int k[]={7,8,9,10,11,12,13};
-        System.out.println(op.getSecondSmallest(k,7));
+        System.out.println(op.getSecondSmallest());
+
+        LogicalOp coppy = new LogicalOp();
+        coppy.copyArr();
+
 
 
 
