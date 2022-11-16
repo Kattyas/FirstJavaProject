@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -151,6 +154,49 @@ public class Main {
 
         LogicalOp coppy = new LogicalOp();
         coppy.copyArr();
+
+
+        //---------------------------------------------------------------------------------------------------------------
+        // Tema - Liste
+
+        List<String> myList = new ArrayList<>();
+        myList.add("First element");
+        myList.add("Second element");
+        myList.add("Third element");
+        myList.add("Fourth element");
+
+        List<Integer> mySecList = new ArrayList<>();
+        mySecList.add(1);
+        mySecList.add(2);
+        mySecList.add(3);
+        mySecList.add(4);
+
+        LogicalOp logicalOp = new LogicalOp();
+        logicalOp.showTheList(mySecList);
+
+        LogicalOp addNnum = new LogicalOp();
+        addNnum.addANum(mySecList, 7);
+
+        LogicalOp prntList = new LogicalOp();
+        prntList.printListFromNumber(mySecList,1);
+
+        LogicalOp prLfL = new LogicalOp();
+        prLfL.printListFromLast(mySecList);
+
+        LogicalOp adStrTlist = new LogicalOp();
+        adStrTlist.addStringToList(myList,1," Added to list");
+        System.out.println(myList);
+
+        LogicalOp adNnum = new LogicalOp();
+        adNnum.addNumTo1(mySecList, 4);
+
+        LogicalOp shTlst = new LogicalOp();
+        shTlst.showTheLists(mySecList);
+
+        LogicalOp theBigg = new LogicalOp();
+        theBigg.showTheBigg(mySecList);
+
+
 
 
 
