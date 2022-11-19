@@ -8,7 +8,6 @@ public class Calculator {
     public int operAdunare(int a, int b, int c ){
         return a + b + c;
     }
-
     public float operAdunare(float a, float b ){
         return a + b;
     }
