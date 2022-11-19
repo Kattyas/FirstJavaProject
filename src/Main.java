@@ -19,17 +19,8 @@ public class Main {
 
         String textImput = "FastTrack";
         String textImput2 = "FastTrackIT";
-        Calculator Calc = new Calculator();
         LogicalOp op = new LogicalOp();
 
-        int adunare = Calc.operAdunare(a,b);
-        System.out.println(adunare);
-        int scadere = Calc.operScadere(a,b);
-        System.out.println(scadere);
-        int inmultire = Calc.operInmultire(a,b);
-        System.out.println(inmultire);
-        float impartire = Calc.operImpartire(a,b);
-        System.out.println(impartire);
 
         int biggest = op.checkBiggerNumber(a,b);
         System.out.println("The bigger number is: " + biggest);

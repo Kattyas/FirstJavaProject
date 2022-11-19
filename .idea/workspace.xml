@@ -2,8 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dcc9266-4d97-464b-a49a-f487b2426ec1" name="Changes" comment="TemaLab13">
+      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/Angelica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/Aylesbury.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/Billi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/CatFood.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/CricetomysGambianus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/DogFood.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/DuckFood.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/Female.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/Husky.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/Jonny.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/Jumping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/Male.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/MesocricetusAuratus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/MouseFood.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/Muscovy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/Ocicat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/Runing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/Sphynx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/Vasilica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LogicalOp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LogicalOp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/AppMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/AppMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/DryAnimalFood.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/Duck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/Mouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/Mouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/Owner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/Pug.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/Pug.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/RecAct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/RecAct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/SoftAnimalFood.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/Veterinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/Veterinary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +69,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.AppMain">
     <configuration name="AppMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AnimalRescue.AppMain" />
       <module name="FirstJavaProject" />
@@ -61,8 +92,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.AppMain" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668435232373</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="TemaLab13">
+      <created>1668637316900</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1668637316900</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

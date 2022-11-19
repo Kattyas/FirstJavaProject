@@ -18,13 +18,18 @@ public class RecAct {
     }
 
 
-    public void high(){
-        System.out.println(" higher and higher ");
-    }
     public void fast(){
         System.out.println("...sooo fast ");
     }
-
+    public void low(){
+        System.out.println("Jump low...");
+    }
+    public void med(){
+        System.out.println("Jump med....");
+    }
+    public void high(){
+        System.out.println(" higher and higher ");
+    }
 
 
 

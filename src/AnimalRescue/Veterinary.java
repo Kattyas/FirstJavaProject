@@ -18,10 +18,6 @@ public class Veterinary {
     }
 
 
-
-
-
-
     public void consult(){
         System.out.println(" wants to know ");
     }

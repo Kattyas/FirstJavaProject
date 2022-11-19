@@ -69,9 +69,8 @@ public class Animal {
         return happiness;
     }
 
-
     public void eat(){
-        System.out.println("Eating....");
+        System.out.println("Eating....aaaa");
     }
     public void sleep(){
         System.out.println("Hrrrr...Hrrrrr....");

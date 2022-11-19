@@ -51,9 +51,47 @@ public class AppMain {
 //        mrWilly.consult();
         Pug rex = new Pug();
         rex.setName("Rex");
+        rex.speak();
+        rex.snore();
 
         Pug max = new Pug();
         max.setName("Max");
+        max.snore();
+
+        Husky hugh = new Husky();
+        hugh.setName("Hugh");
+        hugh.sleep();
+
+        Angelica any = new Angelica();
+        any.setName("Any");
+        any.speak();
+        any.eat();
+
+        Jonny john = new Jonny();
+        john.setName("Jonny");
+        john.speak();
+
+        MesocricetusAuratus mesy = new MesocricetusAuratus();
+        mesy.setName("Messy");
+        mesy.speak();
+
+
+        Cat kitty = new Cat();
+        kitty.setName("Kitty");
+        kitty.speak();
+        kitty.snore();
+
+
+
+        Cat jolly = new Cat();
+        jolly.setName("Jolly");
+        jolly.eat();
+
+        Duck duffy = new Duck();
+        duffy.setName("Duffy");
+        duffy.speak();
+
+
 
 
 
