@@ -29,9 +29,6 @@ public class Main2 {
         System.out.println(a*b*c);
 
 
-
-
-
         double impartire = Calc.operImpartire(a,b);
         System.out.println(impartire);
         System.out.println(b/a);

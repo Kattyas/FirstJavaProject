@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2dcc9266-4d97-464b-a49a-f487b2426ec1" name="Changes" comment="TemaLab13">
+    <list default="true" id="2dcc9266-4d97-464b-a49a-f487b2426ec1" name="Changes" comment="Calculator">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/Angelica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/Angelica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/AppMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/AppMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/Aylesbury.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/Aylesbury.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/Duck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/Muscovy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/Muscovy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -272,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668868838357</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Calculator">
+      <created>1668880629316</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1668880629316</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -293,6 +305,7 @@
     <MESSAGE value="TemaLab11" />
     <MESSAGE value="TemaLab12" />
     <MESSAGE value="TemaLab13" />
-    <option name="LAST_COMMIT_MESSAGE" value="TemaLab13" />
+    <MESSAGE value="Calculator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Calculator" />
   </component>
 </project>

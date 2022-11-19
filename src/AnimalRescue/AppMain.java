@@ -62,10 +62,15 @@ public class AppMain {
         hugh.setName("Hugh");
         hugh.sleep();
 
+        Muscovy muss = new Muscovy();
+        muss.setName("Muss");
+        muss.fly();
+
         Angelica any = new Angelica();
         any.setName("Any");
         any.speak();
         any.eat();
+        any.dance();
 
         Jonny john = new Jonny();
         john.setName("Jonny");

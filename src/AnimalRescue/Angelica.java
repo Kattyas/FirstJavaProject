@@ -7,6 +7,9 @@ public class Angelica extends Female{
     public void eat(){
         System.out.println("Yam aaa.....");
     }
+    public void dance(){
+        System.out.println("Dance Dance...");
+    }
 
 
 
