@@ -12,14 +12,29 @@ public class Main2 {
 
         Calculator Calc = new Calculator();
 
-        int adunare = Calc.operAdunare(a,b);
+        float adunare = Calc.operAdunare(a,b);
         System.out.println(adunare);
-        int scadere = Calc.operScadere(a,b);
+        System.out.println(a+b+c);
+        System.out.println(a + b);
+
+
+        float scadere = Calc.operScadere(a,b);
         System.out.println(scadere);
-        int inmultire = Calc.operInmultire(a,b);
+        System.out.println(a-b);
+
+
+        float inmultire = Calc.operInmultire(a,b);
         System.out.println(inmultire);
-        float impartire = Calc.operImpartire(a,b);
+        System.out.println(a*b);
+        System.out.println(a*b*c);
+
+
+
+
+
+        double impartire = Calc.operImpartire(a,b);
         System.out.println(impartire);
+        System.out.println(b/a);
 
 
 
