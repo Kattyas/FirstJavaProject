@@ -7,6 +7,8 @@ public class Main3 {
 
         System.out.println("Numarul introdus e: " + read.getFloat());
 
+        System.out.println(read.showArray());
+
 
 
 

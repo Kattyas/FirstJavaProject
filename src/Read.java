@@ -50,6 +50,18 @@ public class Read {
     // Metoda sa primeasca ca si parametru un numar, care reprezinta cate pozitii are.
 
 
+    public int showArray(){
+        Scanner scan = new Scanner(System.in);
+        int [] arr = new int[4];
+
+        for(int i = 0; i < arr.length; i++){
+            System.out.println("enter for value " + i );
+            arr[i] = scan.nextInt();
+
+        }
+        return arr[1];
+
+    }
 
 
 
