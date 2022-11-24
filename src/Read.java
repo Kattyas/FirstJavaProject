@@ -50,18 +50,23 @@ public class Read {
     // Metoda sa primeasca ca si parametru un numar, care reprezinta cate pozitii are.
 
 
-    public int showArray(){
-        Scanner scan = new Scanner(System.in);
-        int [] arr = new int[4];
+    public int [] getArrayOfNumber(int length) {
 
-        for(int i = 0; i < arr.length; i++){
-            System.out.println("enter for value " + i );
-            arr[i] = scan.nextInt();
+        int[] array = new int[length];
 
+        for (int i = 0; i < length; i++) {
+            array[i] = getInt();
         }
-        return arr[1];
+        return array;
 
     }
+
+    // 4. In clasa Read, creati o metoda care sa returneze o lista de numere populate de la tastatura.
+    // Metoda nu v-a primii parametru lungimea. In rezolvarea ei trebuie folosit try-catch.
+
+
+
+
 
 
 

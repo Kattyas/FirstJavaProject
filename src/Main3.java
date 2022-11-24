@@ -3,11 +3,13 @@ public class Main3 {
     public static void main(String[] args) {
 
         Read read = new Read();
-        System.out.println("Numarul introdus e: " + read.getInt());
+        System.out.println("The number introduced is: " + read.getInt());
 
-        System.out.println("Numarul introdus e: " + read.getFloat());
+        System.out.println("The number introduced is: " + read.getFloat());
 
-        System.out.println(read.showArray());
+        LogicalOp op = new LogicalOp();
+        int[]myArray2 = read.getArrayOfNumber(5);
+        op.prntArray(myArray2);
 
 
 

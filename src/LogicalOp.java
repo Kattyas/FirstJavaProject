@@ -409,7 +409,7 @@ public class LogicalOp {
     }
     public void prntArray(int[] myArray){
         for (int i = 0; i < myArray.length; i++){
-            System.out.println(myArray[i]);
+            System.out.print(myArray[i] + " ");
         }
 
     }
