@@ -11,6 +11,9 @@ public class Main3 {
         int[]myArray2 = read.getArrayOfNumber(5);
         op.prntArray(myArray2);
 
+        Read r = new Read();
+        r.getList();
+
 
 
 

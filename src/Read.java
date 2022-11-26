@@ -1,4 +1,6 @@
+import java.util.ArrayList;
 import java.util.InputMismatchException;
+import java.util.List;
 import java.util.Scanner;
 
 public class Read {
@@ -58,26 +60,31 @@ public class Read {
             array[i] = getInt();
         }
         return array;
-
     }
 
     // 4. In clasa Read, creati o metoda care sa returneze o lista de numere populate de la tastatura.
     // Metoda nu v-a primii parametru lungimea. In rezolvarea ei trebuie folosit try-catch.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    public void getList() {
+        Scanner scan = new Scanner(System.in);
+        List<Integer> myList = new ArrayList<>();
+        boolean repeat = true;
+       while (repeat){
+           System.out.println();
+           try {
+               System.out.print("please enter a number: ");
+               myList.add(scan.nextInt());
+           } catch (InputMismatchException e) {
+               System.out.println("The value ["+ scan.nextLine()+"] is not a numeric value,please try again");
+               if (scan.nextLine(). equals("Exit")){
+                    repeat = false;
+               }
+           }
+       }
+    }
+    // 5. In clasa LogicalOp, creati o metoda care sa primeasca un array de numere ca si parametru, si un numar.
+    // Fara a folosi conditii, si folosind un try-catch, afisati valoarea de pe pozitia numarului primit,
+    // iar daca valoarea numarului este mai mare decat numarul de pozitii din array, afisati textul: "Inside catch, number too large".
 
 
 
