@@ -14,6 +14,13 @@ public class Main3 {
         Read r = new Read();
         r.getList();
 
+        int[] arr = new int [] {2,4,44,37,54,63,72,81,90};
+        int pozz = 5;
+        System.out.println(" Pozz is...." + op.getArrayIndex2(arr,pozz));
+
+        LogicalOp runn = new LogicalOp();
+        runn.run();
+
 
 
 

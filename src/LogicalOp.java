@@ -1,4 +1,6 @@
+import java.util.InputMismatchException;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 public class LogicalOp {
 
@@ -650,18 +652,42 @@ public class LogicalOp {
         System.out.println("The biggest element in mySecList = " + biggest);
     }
 
+//----------------------------------------------------------------------------------------------------------------------
+
+                                       // Tema - Try-Catch
+
+    // 5. In clasa LogicalOp, creati o metoda care sa primeasca un array de numere ca si parametru, si un numar.
+    // Fara a folosi conditii, si folosind un try-catch, afisati valoarea de pe pozitia numarului primit,
+    // iar daca valoarea numarului este mai mare decat numarul de pozitii din array, afisati textul: "Inside catch, number too large".
 
 
+    public int getArrayIndex2(int[] arr, int value) {
 
+        try {
+            System.out.println(" The value is ..." + arr[value]);
+        }
+        catch (ArrayIndexOutOfBoundsException e ){
+            System.out.println("Inside catch, number too large");
+        }
+        return value;
+    }
 
+    //6. In clasa LogicalOp, creati o metoda  'wait()'. Metoda sa nu returneze nimic, dar sa primeasca un parametru de tip int.
+    // In interiorul ei, tratati metoda Thread.sleep(), astfel incat metoda noastra sa primeasca valoarea in secunde,
+    // cat sa astepte. Ex: wait(5) -> asteapta 5 secunde.
 
-
-
-
-
-
-
-
+    public void run(){
+        int aa = 500;
+        try {
+            for (int i = 0; i < aa; i++){
+                Thread.sleep(5000);
+                System.out.println(i);
+            }
+        }
+        catch (IllegalMonitorStateException e){
+            System.out.println(e);
+        }
+    }
 
 
 
