@@ -1,14 +1,22 @@
 package AnimalRescue;
 
-public class Cat extends Animal{
+public abstract class Cat extends Animal{
+
+    public abstract void purr();
+
+    public void miau(){
+    }
+    @Override
+    public void run() {
+    }
+    @Override
+    public void sleep() {
+    }
     public void eat(){
-        System.out.println("Yam ccc...");
     }
     public void speak(){
-        System.out.println("Miau ccc....");
     }
     public void snore(){
-        System.out.println("Hrrrr cat...");
     }
 
 

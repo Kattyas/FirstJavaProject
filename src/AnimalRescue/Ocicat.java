@@ -1,8 +1,11 @@
 package AnimalRescue;
 
 public class Ocicat extends Cat{
+    @Override
+    public void purr() {
+
+    }
     public void eat(){
-        System.out.println("Yam oocc...");
     }
     public void speak(){
         System.out.println("Miau oocc....");

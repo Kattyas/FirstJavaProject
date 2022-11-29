@@ -1,6 +1,9 @@
 package AnimalRescue;
 
 public class Sphynx extends Cat{
+    @Override
+    public void purr() {
+    }
     public void eat(){
         System.out.println("Yam sss...");
     }

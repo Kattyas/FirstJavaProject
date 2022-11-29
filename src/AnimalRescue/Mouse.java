@@ -1,6 +1,12 @@
 package AnimalRescue;
 
 public class Mouse extends Animal{
+    @Override
+    public void sleep() {
+    }
+    @Override
+    public void run() {
+    }
     public void eat(){
         System.out.println("Yam mmoouse...");
     }

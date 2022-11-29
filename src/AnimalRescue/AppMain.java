@@ -81,21 +81,6 @@ public class AppMain {
         mesy.speak();
 
 
-        Cat kitty = new Cat();
-        kitty.setName("Kitty");
-        kitty.speak();
-        kitty.snore();
-
-
-
-        Cat jolly = new Cat();
-        jolly.setName("Jolly");
-        jolly.eat();
-
-        Duck duffy = new Duck();
-        duffy.setName("Duffy");
-        duffy.speak();
-
 
 
 

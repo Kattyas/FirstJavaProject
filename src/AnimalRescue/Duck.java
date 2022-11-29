@@ -1,15 +1,22 @@
 package AnimalRescue;
 
-public class Duck extends Animal{
+public abstract class Duck extends Animal{
+
+    @Override
+    public void sleep() {
+    }
+    @Override
+    public void run() {
+    }
     public void eat(){
-        System.out.println("Yam duuu...");
     }
     public void speak(){
-        System.out.println("Maccc duuu....");
     }
     public void snore(){
-        System.out.println("Hrrrr duc....");
     }
+    public abstract void fly();
+
+
 
 
 
