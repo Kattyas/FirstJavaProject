@@ -676,16 +676,13 @@ public class LogicalOp {
     // In interiorul ei, tratati metoda Thread.sleep(), astfel incat metoda noastra sa primeasca valoarea in secunde,
     // cat sa astepte. Ex: wait(5) -> asteapta 5 secunde.
 
-    public void run(){
-        int aa = 500;
+    public static void wait(int seconds){
+
         try {
-            for (int i = 0; i < aa; i++){
-                Thread.sleep(5000);
-                System.out.println(i);
-            }
+            Thread.sleep(seconds * 1000L);
         }
-        catch (IllegalMonitorStateException e){
-            System.out.println(e);
+        catch (InterruptedException e){
+            System.out.println(e);;
         }
     }
 

@@ -18,8 +18,9 @@ public class Main3 {
         int pozz = 5;
         System.out.println(" Pozz is...." + op.getArrayIndex2(arr,pozz));
 
-        LogicalOp runn = new LogicalOp();
-        runn.run();
+        LogicalOp waitt = new LogicalOp();
+       waitt.wait(5);
+
 
 
 
