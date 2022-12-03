@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2dcc9266-4d97-464b-a49a-f487b2426ec1" name="Changes" comment="Read">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/AppMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/AppMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/Aylesbury.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/Aylesbury.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/Duck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/Mouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/Mouse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/Muscovy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/Muscovy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/Ocicat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/Ocicat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/Sphynx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/Sphynx.java" afterDir="false" />
-    </list>
+    <list default="true" id="2dcc9266-4d97-464b-a49a-f487b2426ec1" name="Changes" comment="AnimalRescue" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -365,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669722720528</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="AnimalRescue">
+      <created>1669732410198</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1669732410198</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -389,7 +384,8 @@
     <MESSAGE value="Animal" />
     <MESSAGE value="Calculator" />
     <MESSAGE value="Read" />
-    <option name="LAST_COMMIT_MESSAGE" value="Read" />
+    <MESSAGE value="AnimalRescue" />
+    <option name="LAST_COMMIT_MESSAGE" value="AnimalRescue" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FirstJavaProject$Main3.ic" NAME="Main3 Coverage Results" MODIFIED="1669116692901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
